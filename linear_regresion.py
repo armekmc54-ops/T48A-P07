@@ -36,13 +36,13 @@ def linear_regresion():
     # 7. Regresarlos como una tupla: (mse, r2)
     return (mse, r2)
 
-if __name__ == '__main__':
-    # Ejecución de prueba para verificar los resultados
-    mse, r2 = linear_regresion()
-    print(f"Error Cuadrático Medio (MSE): {mse:.2f}")
-    print(f"Coeficiente de Determinación (R²): {r2:.4f}")
+    if __name__ == '__main__':
+        # Ejecución de prueba para verificar los resultados
+        mse, r2 = linear_regresion()
+        print(f"Error Cuadrático Medio (MSE): {mse:.2f}")
+        print(f"Coeficiente de Determinación (R²): {r2:.4f}")
     
     #RESULTADOS
 
-#Error Cuadrático Medio (MSE): 3775.62
-#Coeficiente de Determinación (R²): 0.3172
+    #Error Cuadrático Medio (MSE): 3775.62
+    #Coeficiente de Determinación (R²): 0.3172
