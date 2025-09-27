@@ -19,7 +19,7 @@ def linear_regresion():
     # Usaremos el 75% para entrenamiento y el 25% para prueba (valor predeterminado de test_size).
     # Un random_state se utiliza para asegurar la reproducibilidad de la división.
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.25, random_state=42
+        X, y, test_size=0.2, random_state=42
     )
     
     # 4. Entrenar un modelo de LinearRegression con los datos de entrenamiento
